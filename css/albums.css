@@ -1,0 +1,9 @@
+#parisDiv {
+    background-image: url("image-grid-1.jpg");
+}
+#madridDiv {
+    background-image: url("../img/image-grid-2.jpg")
+}
+#cologneDiv {
+    background-image: url(../img/image-grid-3.jpg)
+}
