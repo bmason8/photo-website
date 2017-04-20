@@ -9,18 +9,16 @@ body {
     overflow-y: auto;
 }
 nav {
-    background-color: #ffffff;
     font-family: 'Permanent Marker', cursive;
     z-index: 9999;
     background-color: rgba(0, 0, 0, 0);
-
-}
-div nav a {
-    font-weight: bold;
 }
 .brand-logo {
     padding-left: 10px !important;
     font-size: 1.5em !important;
+}
+.nav-items-color {
+    color: white;
 }
 .remove-padding {
     padding-left: 0px !important;
@@ -39,6 +37,10 @@ div nav a {
 .tint-image:hover {
     -webkit-filter: grayscale(0%);
     -webkit-filter: brightness(100%);
+}
+.album-header {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .header-box {

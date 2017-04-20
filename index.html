@@ -21,10 +21,10 @@
     <div class="flex-container">
         <div class="navbar-fixed">
             <nav>
-                <div class="nav-wrapper"> <a href="index.html" class="brand-logo waves-effect waves-orange">Photo's by Benjamin</a>
+                <div class="nav-wrapper"> <a href="index.html" class="brand-logo waves-effect waves-orange nav-items-color">Photo's by Benjamin</a>
                     <ul class="right hide-on-med-and-down">
-                        <li><a href="albums.html" class="waves-effect waves-orange">Albums</a></li>
-                        <li><a href="https://www.instagram.com/benjaminmason/" class="waves-effect waves-orange">Instagram</a></li>
+                        <li><a href="albums.html" class="waves-effect waves-orange nav-items-color">Albums</a></li>
+                        <li><a href="https://www.instagram.com/benjaminmason/" class="waves-effect waves-orange nav-items-color">Instagram</a></li>
                     </ul>
                 </div>
             </nav>
@@ -38,14 +38,17 @@
             <div class="row"> <img class="col s4 remove-padding tint-image" src="img/image-grid-7.jpg" alt=""> <img class="col s4 remove-padding tint-image" src="img/image-grid-8.jpg" alt=""> <img class="col s4 remove-padding tint-image" src="img/image-grid-9.jpg" alt=""> </div>
         </div>
     </div>
-    <div class="divider"></div>
     <!--    Album Section-->
-    <div class="container">
+    <div class="flex-container">
         <div class="row">
-            <h1 class="album">Albums</h1> </div>
+           <div class="col s12">
+               <h1 class="album-header">Albums</h1>
+           </div>
+            </div>
     </div>
+    <div class="flex-container" id="nav-color-change">
     <div class="row">
-        <div class="col s12 m4">
+        <div class="col s12 m6 l4">
             <div class="card large hoverable">
                 <div class="card-image"> <img src="img/image-grid-1.jpg"> <span class="card-title">Paris</span> </div>
                 <div class="card-content">
@@ -54,16 +57,16 @@
                 <div class="card-action"> <a href="albums/paris.html">Go to album</a> </div>
             </div>
         </div>
-        <div class="col s12 m4">
+        <div class="col s12 m6 l4">
             <div class="card large hoverable scroll-test">
                 <div class="card-image scroll-test"> <img src="img/image-grid-2.jpg"> <span class="card-title">Madrid</span> </div>
-                <div class="card-content scroll-test">
-                    <p class="scroll-test">How's a fairytale town not somebody's fucking thing? How can all those canals and bridges and cobbled streets and those churches, all that beautiful fucking fairytale stuff, how can that not be somebody's fucking thing, eh? - Movie, "In Bruges"</p>
+                <div class="card-content">
+                    <p>How's a fairytale town not somebody's fucking thing? How can all those canals and bridges and cobbled streets and those churches, all that beautiful fucking fairytale stuff, how can that not be somebody's fucking thing, eh? - Movie, "In Bruges"</p>
                 </div>
                 <div class="card-action"> <a href="albums/madrid.html">Go to album</a> </div>
             </div>
         </div>
-        <div class="col s12 m4">
+        <div class="col s12 m6 l4">
             <div class="card large hoverable">
                 <div class="card-image"> <img src="img/image-grid-3.jpg"> <span class="card-title">Cologne</span> </div>
                 <div class="card-content">
@@ -72,11 +75,9 @@
                 <div class="card-action"> <a href="albums/cologne.html">Go to album</a> </div>
             </div>
         </div>
-    </div>
     <!--      Second Row of Albums-->
-    <div class="row">
-        <div class="col s12 m4">
-            <div class="card medium hoverable">
+        <div class="col s12 m6 l4">
+            <div class="card large hoverable">
                 <div class="card-image"> <img src="img/image-grid-4.jpg"> <span class="card-title">Rome</span> </div>
                 <div class="card-content">
                     <p>&quot;Rome was a poem pressed into service as a city.&quot; - Anotole Broyard</p>
@@ -84,8 +85,8 @@
                 <div class="card-action"> <a href="albums/rome.html">Go to album</a> </div>
             </div>
         </div>
-        <div class="col s12 m4">
-            <div class="card medium hoverable">
+        <div class="col s12 m6 l4">
+            <div class="card large hoverable">
                 <div class="card-image"> <img src="img/image-grid-5.jpg"> <span class="card-title">Victoria</span> </div>
                 <div class="card-content">
                     <p>My hometown and one of my favourite places in the world.</p>
@@ -93,8 +94,8 @@
                 <div class="card-action"> <a href="albums/victoria.html">Go to album</a> </div>
             </div>
         </div>
-        <div class="col s12 m4">
-            <div class="card medium hoverable">
+        <div class="col s12 m6 l4">
+            <div class="card large hoverable">
                 <div class="card-image"> <img src="img/image-grid-6.jpg"> <span class="card-title">Random</span> </div>
                 <div class="card-content">
                     <p>Photos of the places in between or on the way.</p>
@@ -103,14 +104,15 @@
             </div>
         </div>
     </div>
+    </div>
     <footer class="page-footer">
         <div class="flex-container">
             <div class="row valign-wrapper">
-                <div class="col s12 m6 lg6 center-align">
+                <div class="col s12 m6 l6 center-align">
                     <p class="grey-text text-lighten-3">If you like my website and would like one for yourself, send me an email and let's talk. I make professional websites at a reasonable price.</p>
                     <p><a class="grey-text text-lighten-3" href="mailto:ben.mason8@gmail.com?subject=Website Inquiry">ben.mason8@gmail.com</a></p>
                 </div>
-                <div class="col s12 m6 lg6 center-align">
+                <div class="col s12 m6 l6 center-align">
                     <h5 class="white-text valign-wrapper center-footer-content">Follow me on Instagram</h5>
                     <a href="https://www.instagram.com/benjaminmason/"><img class="img-circle" src="img/ben.jpg" alt=""></a>
                 </div>

@@ -1,3 +1,12 @@
-nav {
-    background-color: rgba(0, 0, 0, 0.87);
+.nav {
+    background-color: rgba(0, 0, 0, 0.9)!important;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.divider {
+    overflow: visible;
+    margin-bottom: 18px;
 }
