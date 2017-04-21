@@ -1,20 +1,94 @@
+.nav {
+    background-color: rgba(0, 0, 0, 0.9)!important;
+}
+
 body {
-    font-family: 'Poiret One';
+    background-color: rgba(0, 0, 0, 0.9);
 }
+
+.divider {
+    overflow: visible;
+    margin-bottom: 18px;
+}
+
+
+
+/*
+section { 
+  padding: .5vw;
+  font-size: 0;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap; 
+  flex-flow: row wrap; 
+  display: -webkit-box;
+  display: flex;
+}
+section div { 
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto; 
+  width: 200px; 
+  margin: .5vw; 
+}
+section div img { 
+  width: 100%; 
+  height: auto; 
+}
+@media screen and (max-width: 400px) {
+  section div { margin: 0; }
+  section { padding: 0; }
+  
+}
+*/
+
+
+
+
+
+
+.flex-me {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a {
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(50% - 4px);
+  margin-right: 8px;
+  text-decoration: none;
+  color: black;
+}
+
+a:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 50em) {
+  a {
+    width: calc(25% - 6px);
+  }
+  
+  a:nth-of-type(2n) {
+    margin-right: 8px;
+  }
+  
+  a:nth-of-type(4n) {
+    margin-right: 0;
+  }
+}
+
+
+
+
+
 img {
-    margin-top: 20px;
-}
-nav {
-    background-color: #ffffff;
-}
-div nav a {
-    color: black;
-}
-.brand-logo {
-    padding-left: 10px !important;
-    color: black !important;
-}
-.remove-padding {
-    padding-left: 0px !important;
-    padding-right: 0px !important;
+  border: none;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  background: #ccc;
+  transition: transform .2s ease-in-out;
 }
