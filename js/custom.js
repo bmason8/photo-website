@@ -5,7 +5,7 @@ setTimeout(function() {
 
 var offset = $('#nav-color-change').offset().top;
 var navbar = $('nav');
-var navTextColor = $('.nav-items-color')
+var navTextColor = $('.nav-items-color');
 
 $(document).scroll(function() {
     position = $(this).scrollTop();

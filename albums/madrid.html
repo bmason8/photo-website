@@ -8,7 +8,11 @@
     <link type="text/css" rel="stylesheet" href="../css/materialize.css" media="screen,projection" />
     <!-- Custom Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
     <!--    Custom CSS-->
+    <link href="../css/lightbox.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
     <link href="../css/album.css" rel="stylesheet">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,22 +20,40 @@
 </head>
 
 <body>
-    <div class="navbar-fixed">
-        <nav>
-            <div class="nav-wrapper"> <a href="../index.html" class="brand-logo">Photo's by Benjamin</a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="../albums.html">Albums</a></li>
-                    <li><a href="../index.html">Instagram</a></li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-    <div class="flex-container">
-        <div class="row"> <img class="col s6 m6 l3 materialboxed" width="650" src="../img/image-grid-1.jpg" alt=""> <img class="col s6 m6 l3 materialboxed" width="650" src="../img/image-grid-2.jpg" alt=""> <img class="col s6 m6 l3 materialboxed" width="650" src="../img/image-grid-3.jpg" alt=""> <img class="col s6 m6 l3 materialboxed" width="650" src="../img/image-grid-4.jpg" alt=""> <img class="col s6 m6 l3 materialboxed" width="650" src="../img/image-grid-5.jpg" alt=""> <img class="col s6 m6 l3 materialboxed" width="650" src="../img/image-grid-6.jpg" alt=""> <img class="col s6 m6 l3 materialboxed" width="650" src="../img/image-grid-7.jpg" alt=""> <img class="col s6 m6 l3 materialboxed" width="650" src="../img/image-grid-9.jpg" alt=""> <img class="col s6 m6 l3 materialboxed" width="650" src="../img/image-grid-5.jpg" alt=""> <img class="col s6 m6 l3 materialboxed" width="650" src="../img/image-grid-2.jpg" alt=""> <img class="col s6 m6 l3 materialboxed" width="650" src="../img/image-grid-3.jpg" alt=""> <img class="col s6 m6 l3 materialboxed" width="650" src="../img/image-grid-4.jpg" alt=""> <img class="col s6 m6 l3 materialboxed" width="650" src="../img/image-grid-8.jpg" alt=""> <img class="col s6 m6 l3 materialboxed" width="650" src="../img/image-grid-7.jpg" alt=""> <img class="col s6 m6 l3 materialboxed" width="650" src="../img/image-grid-6.jpg" alt=""> </div>
-    </div>
+   <div class="flex-container">
+    <div class="navbar">
+            <nav>
+                <div id="header" class="nav-wrapper albums-nav"> <a href="../index.html" class="brand-logo waves-effect waves-orange">Photo's by Benjamin</a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="../albums.html" class="waves-effect waves-orange">Albums</a></li>
+                        <li><a href="https://www.instagram.com/benjaminmason/" class="waves-effect waves-orange">Instagram</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="flex-container">
+            <h1 class="center-align white-text">Madrid</h1>
+        </div>
+        <div class="flex-container">
+            <ul id="imageGallery">
+                <li class="galleryItem"><a href="../img/madrid/image-1.jpg" data-lightbox="madrid"><img src="../img/madrid/image-1.jpg"></a></li>
+                <li class="galleryItem"><a href="../img/madrid/image-2.jpg" data-lightbox="madrid"><img src="../img/madrid/image-2.jpg"></a></li>
+                <li class="galleryItem"><a href="../img/madrid/image-3.jpg" data-lightbox="madrid"><img src="../img/madrid/image-3.jpg"></a></li>
+                <li class="galleryItem"><a href="../img/madrid/image-4.jpg" data-lightbox="madrid"><img src="../img/madrid/image-4.jpg"></a></li>
+                <li class="galleryItem"><a href="../img/madrid/image-5.jpg" data-lightbox="madrid"><img src="../img/madrid/image-5.jpg"></a></li>
+                <li class="galleryItem"><a href="../img/madrid/image-6.jpg" data-lightbox="madrid"><img src="../img/madrid/image-6.jpg"></a></li>
+                <li class="galleryItem"><a href="../img/madrid/image-7.jpg" data-lightbox="madrid"><img src="../img/madrid/image-7.jpg"></a></li>
+                <li class="galleryItem"><a href="../img/madrid/image-8.jpg" data-lightbox="madrid"><img src="../img/madrid/image-8.jpg"></a></li>
+                <li class="galleryItem"><a href="../img/madrid/image-9.jpg" data-lightbox="madrid"><img src="../img/madrid/image-9.jpg"></a></li>
+            </ul>
+        </div>
+        
+        
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="../js/lightbox.js"></script>
     <script type="text/javascript" src="../js/materialize.min.js"></script>
+    </div>
 </body>
 
 </html>

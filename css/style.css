@@ -81,10 +81,6 @@ nav {
 .page-footer {
     background-color: rgba(0, 0, 0, 0.8) !important;
 }
-.footer-copyright {
-    text-align: center;
-    color: #ffab40 !important;
-}
 .img-circle {
     border-radius: 50%;
     border: 5px solid #fff;

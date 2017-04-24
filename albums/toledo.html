@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
     <!--    Custom CSS-->
+    <link href="../css/lightbox.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
     <link href="../css/album.css" rel="stylesheet">
     <!--Let browser know website is optimized for mobile-->
@@ -22,62 +23,38 @@
    <div class="flex-container">
     <div class="navbar">
             <nav>
-                <div class="nav-wrapper albums-nav"> <a href="../index.html" class="brand-logo waves-effect waves-orange">Photo's by Benjamin</a>
+                <div id="header" class="nav-wrapper albums-nav"> <a href="../index.html" class="brand-logo waves-effect waves-orange">Photo's by Benjamin</a>
                     <ul class="right hide-on-med-and-down">
-                       <li><a href="#!">Toledo</a></li>
                         <li><a href="../albums.html" class="waves-effect waves-orange">Albums</a></li>
                         <li><a href="https://www.instagram.com/benjaminmason/" class="waves-effect waves-orange">Instagram</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
-        
-        
-<!--
-        <section>
-            <div><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/jeremiah-wilson-1.jpg" alt></div>
-            <div><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/jeremiah-wilson-2.jpg" alt></div>
-            <div><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/jeremiah-wilson-3.jpg" alt></div>
-            <div><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/jeremiah-wilson-4.jpg" alt></div>
-            <div><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/jeremiah-wilson-5.jpg" alt></div>
-           images placed inside block elements to deal with a Firefox rendering bug affecting  scaled flexbox images 
-        </section>
--->
-        <div class="flex-me">
-          <a href=""><img src="../img/toledo/toledo-1.jpg" alt=""></a>
-          <a href=""><img src="../img/toledo/toledo-1.jpg" alt=""></a>
-          <a href=""><img src="../img/toledo/toledo-1.jpg" alt=""></a>
-          <a href=""><img src="../img/toledo/toledo-1.jpg" alt=""></a>
-          <a href=""><img src="../img/toledo/toledo-1.jpg" alt=""></a>
-          <a href=""><img src="../img/toledo/toledo-1.jpg" alt=""></a>
+        <div class="flex-container">
+            <h1 class="center-align white-text">Toledo</h1>
+        </div>
+        <div class="flex-container">
+            <ul id="imageGallery">
+                <li class="galleryItem"><a href="../img/toledo/image-1.jpg" data-lightbox="toledo"><img src="../img/toledo/image-1.jpg"></a></li>
+                <li class="galleryItem"><a href="../img/toledo/image-2.jpg" data-lightbox="toledo"><img src="../img/toledo/image-2.jpg"></a></li>
+                <li class="galleryItem"><a href="../img/toledo/image-3.jpg" data-lightbox="toledo"><img src="../img/toledo/image-3.jpg"></a></li>
+                <li class="galleryItem"><a href="../img/toledo/image-4.jpg" data-lightbox="toledo"><img src="../img/toledo/image-4.jpg"></a></li>
+                <li class="galleryItem"><a href="../img/toledo/image-5.jpg" data-lightbox="toledo"><img src="../img/toledo/image-5.jpg"></a></li>
+                <li class="galleryItem"><a href="../img/toledo/image-6.jpg" data-lightbox="toledo"><img src="../img/toledo/image-6.jpg"></a></li>
+                <li class="galleryItem"><a href="../img/toledo/image-7.jpg" data-lightbox="toledo"><img src="../img/toledo/image-7.jpg"></a></li>
+                <li class="galleryItem"><a href="../img/toledo/image-8.jpg" data-lightbox="toledo"><img src="../img/toledo/image-8.jpg"></a></li>
+                <li class="galleryItem"><a href="../img/toledo/image-9.jpg" data-lightbox="toledo"><img src="../img/toledo/image-9.jpg"></a></li>
+                <li class="galleryItem"><a href="../img/toledo/image-10.jpg" data-lightbox="toledo"><img src="../img/toledo/image-10.jpg"></a></li>
+                <li class="galleryItem"><a href="../img/toledo/image-11.jpg" data-lightbox="toledo"><img src="../img/toledo/image-11.jpg"></a></li>
+                <li class="galleryItem"><a href="../img/toledo/image-12.jpg" data-lightbox="toledo"><img src="../img/toledo/image-12.jpg"></a></li>
+            </ul>
         </div>
         
         
-        
-        
-<!--
-    <div class="flex-container">
-        <div class="row">
-        <img class="col s6 m6 l3 materialboxed" src="../img/toledo/toledo-1.jpg" alt="">
-        <img class="col s6 m6 l3 materialboxed" src="../img/toledo/toledo-2.jpg" alt="">
-        <img class="col s6 m6 l3 materialboxed" src="../img/toledo/toledo-3.jpg" alt="">
-        <img class="col s6 m6 l3 materialboxed" src="../img/toledo/toledo-4.jpg" alt="">
-        <img class="col s6 m6 l3 materialboxed" src="../img/toledo/toledo-5.jpg" alt="">
-        <img class="col s6 m6 l3 materialboxed" src="../img/toledo/toledo-6.jpg" alt="">
-        <img class="col s6 m6 l3 materialboxed" width="650" src="../img/toledo/toledo-7.jpg" alt="">
-        <img class="col s6 m6 l3 materialboxed" width="650" src="../img/toledo/toledo-8.jpg" alt="">
-        <img class="col s6 m6 l3 materialboxed" width="650" src="../img/toledo/toledo-9.jpg" alt="">
-        <img class="col s6 m6 l3 materialboxed" width="650" src="../img/toledo/toledo-10.jpg" alt="">
-        <img class="col s6 m6 l3 materialboxed" width="650" src="../img/toledo/toledo-11.jpg" alt="">
-        <img class="col s6 m6 l3 materialboxed" width="650" src="../img/toledo/toledo-12.jpg" alt="">
-        <img class="col s6 m6 l3 materialboxed" width="650" src="../img/toledo/toledo-13.jpg" alt="">
-        <img class="col s6 m6 l3 materialboxed" width="650" src="../img/toledo/toledo-14.jpg" alt="">
-        <img class="col s6 m6 l3 materialboxed" width="650" src="../img/toledo/toledo-15.jpg" alt="">
-        </div>
-    </div>
--->
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="../js/lightbox.js"></script>
     <script type="text/javascript" src="../js/materialize.min.js"></script>
     </div>
 </body>
