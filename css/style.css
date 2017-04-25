@@ -1,12 +1,16 @@
 body {
 /*    font-family: 'Poiret One';*/
-    font-family: 'Droid Serif', serif;
+font-family: 'Dancing Script', cursive;
 }
-.card-content {
-    font-family: 'Roboto', sans-serif;
+
+.card-action, .card-content {
+        font-family: 'Poiret One';
 }
-.scroll-test {
-    overflow-y: auto;
+h1 {
+    font-family: 'Poiret One';
+}
+#navbar-fade-in {
+    -webkit-animation-delay: 2s;
 }
 nav {
     font-family: 'Permanent Marker', cursive;
@@ -59,7 +63,7 @@ nav {
     text-align: center;
     padding: 0px;
     margin: 80px 20px 40px 20px;
-    font-style: italic;
+    font-family: 'Permanent Marker';
 }
 .welcome-text {
     font-style: italic;
@@ -97,5 +101,8 @@ nav {
     align-items: center !important;
     justify-content: center !important;
     text-align: center;
+    padding-bottom: 16px;
 }
-
+#contact-me {
+        font-family: 'Poiret One';
+}

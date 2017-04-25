@@ -7,11 +7,10 @@
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
     <!-- Custom Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Permanent+Marker|Poiret+One" rel="stylesheet">
     <!--    Custom CSS-->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Photos by Ben</title>
@@ -21,7 +20,7 @@
     <div class="flex-container">
         <div class="navbar-fixed">
             <nav>
-                <div class="nav-wrapper"> <a href="index.html" class="brand-logo waves-effect waves-orange nav-items-color">Photo's by Benjamin</a>
+                <div id="navbar-fade-in" class="nav-wrapper animated fadeInDown"> <a href="index.html" class="brand-logo waves-effect waves-orange nav-items-color">Photo's by Benjamin</a>
                     <ul class="right hide-on-med-and-down">
                         <li><a href="albums.html" class="waves-effect waves-orange nav-items-color">Albums</a></li>
                         <li><a href="https://www.instagram.com/benjaminmason/" class="waves-effect waves-orange nav-items-color">Instagram</a></li>
@@ -30,8 +29,8 @@
             </nav>
             <div class="row remove-margin header-box">
                 <div class="col s12 overlay">
-                    <h1 class="welcome-text grey-text text-lighten-3">Welcome To My Photography Website</h1>
-                    <h2 class="sub-welcome-text grey-text text-lighten-3">Take a look around</h2></div>
+                    <h2 class="welcome-text grey-text text-lighten-3">Welcome!</h2>
+                    <h3 class="sub-welcome-text grey-text text-lighten-3">Take a look around</h3></div>
                 <div class="row remove-margin"> <img class="col s4 remove-padding tint-image" src="img/image-grid-1.jpg" alt=""> <img class="col s4 remove-padding tint-image" src="img/image-grid-2.jpg" alt=""> <img class="col s4 remove-padding tint-image" src="img/image-grid-3.jpg" alt=""> </div>
             </div>
             <div class="row remove-margin"> <img class="col s4 remove-padding tint-image" class="image-grid" src="img/image-grid-4.jpg" alt=""> <img class="col s4 remove-padding tint-image" class="image-grid" src="img/image-grid-5.jpg" alt=""> <img class="col s4 remove-padding tint-image" class="image-grid" src="img/image-grid-6.jpg" alt=""> </div>
@@ -58,8 +57,8 @@
             </div>
         </div>
         <div class="col s12 m6 l4">
-            <div class="card large hoverable scroll-test">
-                <div class="card-image scroll-test"> <img src="img/albumCovers/album-2.jpg"> <span class="card-title">Madrid</span> </div>
+            <div class="card large hoverable">
+                <div class="card-image"> <img src="img/albumCovers/album-2.jpg"> <span class="card-title">Madrid</span> </div>
                 <div class="card-content">
                     <p>How's a fairytale town not somebody's fucking thing? How can all those canals and bridges and cobbled streets and those churches, all that beautiful fucking fairytale stuff, how can that not be somebody's fucking thing, eh? - Movie, "In Bruges"</p>
                 </div>
@@ -98,7 +97,7 @@
             <div class="card large hoverable">
                 <div class="card-image"> <img src="img/albumCovers/album-6.jpg"> <span class="card-title">Toledo</span> </div>
                 <div class="card-content">
-                    <p>Photos of the places in between or on the way.</p>
+                    <p>A beautiful little town atop a hill an hour outside of Madrid.</p>
                 </div>
                 <div class="card-action"> <a href="albums/toledo.html">Go to album</a> </div>
             </div>
@@ -108,18 +107,18 @@
     <footer class="page-footer">
         <div class="flex-container">
             <div class="row valign-wrapper">
-                <div class="col s12 m6 l6 center-align">
+                <div id="contact-me" class="col s12 m6 l6 center-align">
                     <p class="grey-text text-lighten-3">If you like my website and would like one for yourself, send me an email and let's talk. I make professional websites at a reasonable price.</p>
                     <p><a class="grey-text text-lighten-3" href="mailto:ben.mason8@gmail.com?subject=Website Inquiry">ben.mason8@gmail.com</a></p>
                 </div>
                 <div class="col s12 m6 l6 center-align">
-                    <h5 class="white-text valign-wrapper center-footer-content">Follow me on Instagram</h5>
-                    <a href="https://www.instagram.com/benjaminmason/"><img class="img-circle" src="img/ben.jpg" alt=""></a>
+                    <h5 class="white-text valign-wrapper center-footer-content" id="follow-me-footer-text">Follow me on Instagram</h5>
+                    <a href="https://www.instagram.com/benjaminmason/"><img class="img-circle animated bounce" src="img/ben.jpg" alt=""></a>
                 </div>
             </div>
         </div>
         <div class="footer-copyright">
-            <div class="container center-align">© Copyright Benjamin Mason Photography 2017</div>
+            <div class="container center-align">&copy; Copyright Benjamin Mason Photography 2017</div>
         </div>
     </footer>
     <!--Import jQuery before materialize.js-->
