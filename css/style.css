@@ -4,7 +4,7 @@ font-family: 'Dancing Script', cursive;
 }
 
 .card-action, .card-content {
-        font-family: 'Poiret One';
+    font-family: 'Poiret One';
 }
 h1 {
     font-family: 'Poiret One';
@@ -105,4 +105,7 @@ nav {
 }
 #contact-me {
         font-family: 'Poiret One';
+}
+#header a:hover, #navbar-fade-in a:hover {
+    color: rgb(255, 171, 64);
 }
