@@ -1,6 +1,6 @@
 body {
 /*    font-family: 'Poiret One';*/
-font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing Script', cursive;
 }
 
 .card-action, .card-content {
@@ -9,12 +9,12 @@ font-family: 'Dancing Script', cursive;
 h1 {
     font-family: 'Poiret One';
 }
-#navbar-fade-in {
-    -webkit-animation-delay: 2s;
+#navbar-fade-in, .material-icons {
+    -webkit-animation-delay: 1.7s;
 }
 nav {
     font-family: 'Permanent Marker', cursive;
-    z-index: 9999;
+    z-index: 9991;
     background-color: rgba(0, 0, 0, 0);
 }
 .brand-logo {
@@ -54,12 +54,12 @@ nav {
 
 .overlay {
     position: absolute;
-    z-index: 9999;
+    z-index: 9990;
     color: white;
 }
 .welcome-text, .sub-welcome-text {
 /*    color: white;*/
-    z-index: 1000;
+    z-index: 9999;
     text-align: center;
     padding: 0px;
     margin: 80px 20px 40px 20px;
@@ -108,4 +108,8 @@ nav {
 }
 #header a:hover, #navbar-fade-in a:hover {
     color: rgb(255, 171, 64);
+}
+
+#sidenav-overlay {
+    z-index: 99;
 }

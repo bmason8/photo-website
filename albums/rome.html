@@ -2,6 +2,9 @@
 <html>
 
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
@@ -12,45 +15,79 @@
     <link href="../css/lightbox.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
     <link href="../css/album.css" rel="stylesheet">
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Photos by Ben - Rome</title>
 </head>
 
 <body>
-   <div class="flex-container">
-    <div class="navbar">
+    <div class="flex-container">
+        <div class="navbar">
+            <!-- Dropdown Structure -->
+            <ul id="dropdown1" class="dropdown-content">
+                <li><a href="paris.html">Paris</a></li>
+                <li><a href="madrid.html">Madrid</a></li>
+                <li><a href="cologne.html">Cologne</a></li>
+                <li><a href="rome.html">Rome</a></li>
+                <li><a href="victoria.html">Victoria</a></li>
+                <li><a href="toledo.html">Toledo</a></li>
+            </ul>
             <nav>
-                <div id="header" class="nav-wrapper albums-nav"> <a href="../index.html" class="brand-logo waves-effect waves-orange">Photo's by Benjamin</a>
+                <div id="header" class="nav-wrapper albums-nav"> <a href="../index.html" class="brand-logo waves-effect waves-orange">Photo's by Benjamin</a> <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
-                        <li><a href="../albums.html" class="waves-effect waves-orange">Albums</a></li>
+                        <li><a href="../albums.html" class="waves-effect waves-orange">Albums Page</a></li>
                         <li><a href="https://www.instagram.com/benjaminmason/" class="waves-effect waves-orange">Instagram</a></li>
+                        <!--                        Dropdown Trigger-->
+                        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Albums<i class="material-icons right">arrow_drop_down</i></a></li>
+                    </ul>
+                    <ul class="side-nav" id="mobile-demo">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="paris.html">Paris</a></li>
+                        <li><a href="madrid.html">Madrid</a></li>
+                        <li><a href="cologne.html">Cologne</a></li>
+                        <li><a href="rome.html">Rome</a></li>
+                        <li><a href="victoria.html">Victoria</a></li>
+                        <li><a href="toledo.html">Toledo</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
         <div class="flex-container">
-            <h1 class="center-align white-text">Rome</h1>
-        </div>
+            <h1 class="center-align white-text">Rome</h1> </div>
         <div class="flex-container">
             <ul id="imageGallery">
-                <li class="galleryItem"><a href="../img/rome/image-1.jpg" data-lightbox="rome"><img src="../img/rome/image-1.jpg"></a></li>
-                <li class="galleryItem"><a href="../img/rome/image-2.jpg" data-lightbox="rome"><img src="../img/rome/image-2.jpg"></a></li>
-                <li class="galleryItem"><a href="../img/rome/image-3.jpg" data-lightbox="rome"><img src="../img/rome/image-3.jpg"></a></li>
-                <li class="galleryItem"><a href="../img/rome/image-4.jpg" data-lightbox="rome"><img src="../img/rome/image-4.jpg"></a></li>
-                <li class="galleryItem"><a href="../img/rome/image-5.jpg" data-lightbox="rome"><img src="../img/rome/image-5.jpg"></a></li>
-                <li class="galleryItem"><a href="../img/rome/image-6.jpg" data-lightbox="rome"><img src="../img/rome/image-6.jpg"></a></li>
-                <li class="galleryItem"><a href="../img/rome/image-7.jpg" data-lightbox="rome"><img src="../img/rome/image-7.jpg"></a></li>
-                <li class="galleryItem"><a href="../img/rome/image-8.jpg" data-lightbox="rome"><img src="../img/rome/image-8.jpg"></a></li>
-                <li class="galleryItem"><a href="../img/rome/image-9.jpg" data-lightbox="rome"><img src="../img/rome/image-9.jpg"></a></li>
+                <li class="galleryItem">
+                    <a href="../img/rome/image-1.jpg" data-lightbox="rome"><img src="../img/rome/image-1.jpg"></a>
+                </li>
+                <li class="galleryItem">
+                    <a href="../img/rome/image-2.jpg" data-lightbox="rome"><img src="../img/rome/image-2.jpg"></a>
+                </li>
+                <li class="galleryItem">
+                    <a href="../img/rome/image-3.jpg" data-lightbox="rome"><img src="../img/rome/image-3.jpg"></a>
+                </li>
+                <li class="galleryItem">
+                    <a href="../img/rome/image-4.jpg" data-lightbox="rome"><img src="../img/rome/image-4.jpg"></a>
+                </li>
+                <li class="galleryItem">
+                    <a href="../img/rome/image-5.jpg" data-lightbox="rome"><img src="../img/rome/image-5.jpg"></a>
+                </li>
+                <li class="galleryItem">
+                    <a href="../img/rome/image-6.jpg" data-lightbox="rome"><img src="../img/rome/image-6.jpg"></a>
+                </li>
+                <li class="galleryItem">
+                    <a href="../img/rome/image-7.jpg" data-lightbox="rome"><img src="../img/rome/image-7.jpg"></a>
+                </li>
+                <li class="galleryItem">
+                    <a href="../img/rome/image-8.jpg" data-lightbox="rome"><img src="../img/rome/image-8.jpg"></a>
+                </li>
+                <li class="galleryItem">
+                    <a href="../img/rome/image-9.jpg" data-lightbox="rome"><img src="../img/rome/image-9.jpg"></a>
+                </li>
             </ul>
         </div>
-        
-        
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="../js/lightbox.js"></script>
-    <script type="text/javascript" src="../js/materialize.min.js"></script>
+        <!--Import jQuery before materialize.js-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/lightbox.js"></script>
+        <script type="text/javascript" src="../js/materialize.min.js"></script>
+        <script type="text/javascript" src="../js/custom.js"></script>
     </div>
 </body>
 

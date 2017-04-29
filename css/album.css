@@ -1,9 +1,10 @@
-.nav {
-    background-color: rgba(0, 0, 0, 0.9)!important;
-}
-
 body {
     background-color: rgba(0, 0, 0, 0.9);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.nav {
+    background-color: rgba(0, 0, 0, 0.9)!important;
 }
 
 .divider {
@@ -35,4 +36,8 @@ h1 {
 
 #header a:hover {
     color: rgb(255, 171, 64);
+}
+
+.dropdown-content li > a {
+    color: black;
 }
